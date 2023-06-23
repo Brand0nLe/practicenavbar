@@ -10,6 +10,8 @@ import { AboutComponent } from './about/about.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIcon, MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatList, MatListModule } from '@angular/material/list';
+
 
 
 
@@ -26,7 +28,8 @@ import { MatMenuModule } from '@angular/material/menu';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatIconModule,
-    MatMenuModule
+    MatMenuModule,
+    MatListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
