@@ -1,0 +1,16 @@
+<mat-toolbar color="primary">
+    <span class="nav-title">Angular Material Toolbar</span>
+    <button *ngIf="isMobile" mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <div class="nav-links" *ngIf="!isMobile">
+      <a mat-button routerLink="/home">Home</a>
+      <a mat-button routerLink="/about">About</a>
+    </div>
+  </mat-toolbar>
+  
+  <mat-menu #menu="matMenu">
+    <a mat-menu-item routerLink="/home">Home</a>
+    <a mat-menu-item routerLink="/about">About</a>
+  </mat-menu>
+  
