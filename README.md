@@ -1,6 +1,6 @@
 # NavBar (Angular Material Toolbar) Practice
 
-This is just for practice creating a NavBar using Angular Material's Toolbar.
+This is just for practice attempting to create a NavBar using Angular Material's Toolbar that opens down instead of from the side.
 
 ## Setup
 
